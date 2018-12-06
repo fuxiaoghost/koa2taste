@@ -1,7 +1,11 @@
 import Koa from 'koa'
-const app = new Koa();
-app.use(async(ctx) => {
-    ctx.body = "hello koa2";
-});
+import router from './routers/router'
 
-app.listen(3000);
+const app = new Koa();
+
+// 加载路由
+app.use(router.routes()).use(router.allowedMethods());
+
+app.listen(3000, () => {
+    console.log('start ....');
+});
