@@ -1,0 +1,27 @@
+{
+  "name": "koa2taste",
+  "version": "1.0.0",
+  "description": "taste koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxiaoghost/koa2taste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuxiaoghost/koa2taste/issues"
+  },
+  "homepage": "https://github.com/fuxiaoghost/koa2taste#readme",
+  "dependencies": {
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
